@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "DS";
+    src: url("/Fonts/DS-DIGI.TTF") format("truetype");
+}
+
+input[type="button"] {
+    margin: 7px;
+    margin-left: 8px;
+    height: 60px;
+    width: 60px;
+    border: 1px solid;
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: 30%;
+    font-size: 1.5rem;
+} input[type="button"]:hover {
+    box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.048);
+} input[type="button"]:active{
+    position: relative;
+    top: 0.5px;
+}
+p#valor {
+    text-align: end;
+    font-size: 4rem;
+    margin-top: 20px;
+    font-family: "DS";
+}

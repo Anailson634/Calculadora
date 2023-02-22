@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style/botoes.css">
+    <link rel="stylesheet" href="Style/Carcasa.css">
+    <title>Quiz</title>
+</head> 
+<body>
+    <div class="container">
+        <div id="tela">
+            <p id="valor"></p>
+        </div>
+
+        <div id="grup-buttons">
+            <div id="teclas-right">
+                <input class="button right" type="button" value="8" onclick="numeros('8')">
+                <input class="button right" type="button" value="7" onclick="numeros('7')">
+                <input class="button right" type="button" value="9" onclick="numeros('9')">
+                <input class="button right" type="button" value="4" onclick="numeros('4')">
+                <input class="button right" type="button" value="5" onclick="numeros('5')">
+                <input class="button right" type="button" value="6" onclick="numeros('6')">
+                <input class="button right" type="button" value="1" onclick="numeros('1')">
+                <input class="button right" type="button" value="2" onclick="numeros('2')">
+                <input class="button right" type="button" value="3" onclick="numeros('3')">
+                <input class="button right" type="button" value="." onclick="numeros('.')">
+                <input class="button right" type="button" value="0" onclick="numeros('0')">
+                <input class="button right" type="button" value="=" onclick="calcular()">
+            </div>
+            <div id="teclas-left">
+                <input class="button left" type="button" value="DEL" onclick="numeros('DEL')">
+                <input class="button left" type="button" value="+" onclick="operador(' + ')">
+                <input class="button left" type="button" value="-" onclick="operador(' - ')">
+                <input class="button left" type="button" value="/" onclick="operador(' / ')">
+                <input class="button left" type="button" value="*" onclick="operador(' * ')">
+            </div>
+        </div>
+
+    </div>
+    <script src="calculo_back_end.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.container{
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    height: 460px;
+    width: 320px;
+    border-radius: 3%;
+    background-color: rgba(206, 204, 204, 0.568);
+    box-shadow: inset 0px 0px 6px 1px rgba(0, 0, 0, 0.274);
+} div#tela {
+    margin: auto;
+    border: 1px solid;
+    height: 110px;
+    width: 320px;
+    background-color: rgba(140, 211, 252, 0.192);
+    border-radius: 5%;
+} div#grup-buttons {
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    width: 320px;
+    justify-content: space-around;
+}
+div#teclas-right {
+    height: 300px;
+    width: 240px;
+} div#teclas-left {
+    height: 300px;
+    width: 80px;
+} .left {
+    height: 45px !important;
+}
